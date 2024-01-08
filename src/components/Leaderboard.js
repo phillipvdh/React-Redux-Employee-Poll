@@ -4,7 +4,6 @@ const Leaderboard = ({ users }) => {
     return (
         <div>
             <h1 className="mt-9 leader-heading">Leader Board</h1>
-
             <table className="border-collapse table-auto w-full text-sm mt-6">
                 <thead className="table-header-group">
                     <tr className="table-row">
@@ -13,7 +12,7 @@ const Leaderboard = ({ users }) => {
                         <th className="border-b dark:border-slate-600 leader-headings p-4 pl-8 pt-0 pb-3 text-left">Created</th>
                     </tr>
                 </thead>
-                <tbody className="backgroun-table">
+                <tbody className="background-table">
                     {
                         users.map((user) => (
                             <tr key={user.id}>
@@ -27,7 +26,6 @@ const Leaderboard = ({ users }) => {
                     }
                 </tbody>
             </table>
-
         </div>
     );
 };

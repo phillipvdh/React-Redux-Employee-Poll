@@ -178,3 +178,27 @@ body {
 .backgroun-table tr:nth-child(even) {
     background-color: rgb(243, 243, 243);
 }
+
+.card-date {
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+.card-name {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.error-text {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.page-text {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+}

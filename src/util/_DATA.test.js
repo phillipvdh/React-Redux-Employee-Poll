@@ -12,7 +12,7 @@ describe("_saveQuestionAnswer", () => {
 
     it("should return error for false parameters", async () => {
         const response = await _saveQuestionAnswer({
-            authedUser: "sarahedo",
+            authedUser: "chrisbrady",
             qid: undefined,
             answer: "optionOne"
         }).catch(e => e);
